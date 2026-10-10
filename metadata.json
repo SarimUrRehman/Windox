@@ -1,0 +1,6 @@
+{
+  "name": "Windoworx Cleaning Services",
+  "description": "Professional residential & commercial window cleaning service based in Bradford. Pure water reach & wash, conservatory roofs, gutters, and fascias.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
