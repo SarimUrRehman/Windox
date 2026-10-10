@@ -1,5 +1,6 @@
 import { Phone, Calendar, Star, Shield, Droplets, CheckCircle2, MapPin, Sparkles } from 'lucide-react';
 import { BUSINESS_DETAILS } from '../data/servicesData';
+import heroWindowCleaningImg from '../assets/images/hero_window_cleaning_1791649368804.jpg';
 
 interface HeroProps {
   onOpenBooking: () => void;
@@ -89,7 +90,7 @@ export default function Hero({ onOpenBooking }: HeroProps) {
           <div className="lg:col-span-5 flex flex-col items-center">
             <div className="relative w-full rounded-2xl overflow-hidden border border-neutral-800 shadow-2xl bg-neutral-800 aspect-[4/3] sm:aspect-[16/11]">
               <img
-                src="/src/assets/images/hero_window_cleaning_1791649368804.jpg"
+                src={heroWindowCleaningImg}
                 alt="Windoworx Cleaning Services technician using pure water reach and wash pole on residential property in Bradford"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"

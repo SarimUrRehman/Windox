@@ -3,6 +3,7 @@ import { GALLERY_PROJECTS } from '../data/servicesData';
 import { GalleryProject } from '../types';
 import BeforeAfterSlider from './BeforeAfterSlider';
 import { MapPin, Clock, Maximize2, X, Calendar } from 'lucide-react';
+import galleryConservatoryCleanImg from '../assets/images/gallery_conservatory_clean_1791649387362.jpg';
 
 interface GallerySectionProps {
   onOpenBooking: () => void;
@@ -46,8 +47,8 @@ export default function GallerySection({ onOpenBooking }: GallerySectionProps) {
             title="Conservatory Glass Roof & Finial Restoration"
             subtitle="Full removal of winter moss, green algae, and traffic film using pure water"
             location="Birkenshaw, Bradford (BD11)"
-            beforeImage="/src/assets/images/gallery_conservatory_clean_1791649387362.jpg"
-            afterImage="/src/assets/images/gallery_conservatory_clean_1791649387362.jpg"
+            beforeImage={galleryConservatoryCleanImg}
+            afterImage={galleryConservatoryCleanImg}
           />
         </div>
 

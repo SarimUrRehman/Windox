@@ -1,4 +1,23 @@
 import { ServiceItem, ReviewItem, GalleryProject } from '../types';
+import heroWindowCleaningImg from '../assets/images/hero_window_cleaning_1791649368804.jpg';
+import galleryConservatoryCleanImg from '../assets/images/gallery_conservatory_clean_1791649387362.jpg';
+import galleryFasciaGuttersImg from '../assets/images/gallery_fascia_gutters_1791649423755.jpg';
+import galleryResidentialWindowsImg from '../assets/images/gallery_residential_windows_1791649409377.jpg';
+import galleryDeckingCleaningImg from '../assets/images/gallery_decking_cleaning_1791646869863.jpg';
+import galleryDrivewayCleaningImg from '../assets/images/gallery_driveway_cleaning_1791646857661.jpg';
+import galleryPatioRestorationImg from '../assets/images/gallery_patio_restoration_1791646843289.jpg';
+import heroPressureWashingImg from '../assets/images/hero_pressure_washing_1791646828114.jpg';
+
+export const ASSET_IMAGES = {
+  heroWindowCleaning: heroWindowCleaningImg,
+  galleryConservatoryClean: galleryConservatoryCleanImg,
+  galleryFasciaGutters: galleryFasciaGuttersImg,
+  galleryResidentialWindows: galleryResidentialWindowsImg,
+  galleryDeckingCleaning: galleryDeckingCleaningImg,
+  galleryDrivewayCleaning: galleryDrivewayCleaningImg,
+  galleryPatioRestoration: galleryPatioRestorationImg,
+  heroPressureWashing: heroPressureWashingImg,
+};
 
 export const BUSINESS_DETAILS = {
   name: "Windoworx Cleaning Services",
@@ -35,7 +54,7 @@ export const SERVICES: ServiceItem[] = [
       "Available as regular 4/8-weekly clean or one-off service"
     ],
     recommendedFrequency: "Every 4 to 8 weeks",
-    image: "/src/assets/images/hero_window_cleaning_1791649368804.jpg"
+    image: heroWindowCleaningImg
   },
   {
     id: "conservatory-clean",
@@ -53,7 +72,7 @@ export const SERVICES: ServiceItem[] = [
       "Restores natural interior sunlight to your living space"
     ],
     recommendedFrequency: "Biannually or annually",
-    image: "/src/assets/images/gallery_conservatory_clean_1791649387362.jpg"
+    image: galleryConservatoryCleanImg
   },
   {
     id: "fascia-gutters",
@@ -71,7 +90,7 @@ export const SERVICES: ServiceItem[] = [
       "Protects against damp penetration and overflow damage"
     ],
     recommendedFrequency: "Annually in spring or autumn",
-    image: "/src/assets/images/gallery_fascia_gutters_1791649423755.jpg"
+    image: galleryFasciaGuttersImg
   },
   {
     id: "commercial-windows",
@@ -89,7 +108,7 @@ export const SERVICES: ServiceItem[] = [
       "Invoiced monthly with instant digital BACS receipts"
     ],
     recommendedFrequency: "Weekly, bi-weekly or monthly",
-    image: "/src/assets/images/gallery_residential_windows_1791649409377.jpg"
+    image: galleryResidentialWindowsImg
   },
   {
     id: "solar-panel-cleaning",
@@ -107,7 +126,7 @@ export const SERVICES: ServiceItem[] = [
       "Detailed visual inspection of panel condition"
     ],
     recommendedFrequency: "Annually or biannually",
-    image: "/src/assets/images/hero_window_cleaning_1791649368804.jpg"
+    image: heroWindowCleaningImg
   },
   {
     id: "full-house-valet",
@@ -125,7 +144,7 @@ export const SERVICES: ServiceItem[] = [
       "15% bundled savings compared to separate bookings"
     ],
     recommendedFrequency: "Annually",
-    image: "/src/assets/images/gallery_conservatory_clean_1791649387362.jpg"
+    image: galleryConservatoryCleanImg
   }
 ];
 
@@ -209,7 +228,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
     category: "patio",
     location: "Tong Street, Bradford (BD4)",
     surface: "Exterior Glass & White UPVC Frames",
-    image: "/src/assets/images/hero_window_cleaning_1791649368804.jpg",
+    image: heroWindowCleaningImg,
     beforeDesc: "Dirty traffic film, dust streaks, cobwebs, and ingrained dirt on window sills.",
     afterDesc: "Spotless crystal clear panes with all sills and frames washed pristine white.",
     areaSize: "Full 3-Bed Semi",
@@ -222,7 +241,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
     category: "decking",
     location: "Birkenshaw, Bradford (BD11)",
     surface: "Self-Cleaning Glass Panels & Polycarbonate",
-    image: "/src/assets/images/gallery_conservatory_clean_1791649387362.jpg",
+    image: galleryConservatoryCleanImg,
     beforeDesc: "Dense moss accumulation along roof seals, green algae staining, bird lime.",
     afterDesc: "100% transparent glass restored with sparkling white decorative ridge cresting.",
     areaSize: "Victorian Conservatory (4m x 3.5m)",
@@ -235,7 +254,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
     category: "walls",
     location: "Drighlington, West Yorkshire",
     surface: "UPVC Gutters & Fascia Boards",
-    image: "/src/assets/images/gallery_fascia_gutters_1791649423755.jpg",
+    image: galleryFasciaGuttersImg,
     beforeDesc: "Heavy black streak marks, winter grime overflow, and green algae coat.",
     afterDesc: "Restored to brilliant bright white factory finish with all downpipes flushed.",
     areaSize: "Full Detached Property (35m run)",
@@ -248,7 +267,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
     category: "driveway",
     location: "Bradford South (BD6)",
     surface: "Traditional Leaded Windows & Timber Sills",
-    image: "/src/assets/images/gallery_residential_windows_1791649409377.jpg",
+    image: galleryResidentialWindowsImg,
     beforeDesc: "Water-spotted leaded glass with accumulated grime along leading joins.",
     afterDesc: "Immaculate streak-free diamond panes with water sheeting smoothly off.",
     areaSize: "16 Window Panes + Porch",
